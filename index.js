@@ -16,8 +16,11 @@ module.exports = {
     sass: require('./lib/loaders/sass')
   },
   plugins: {
+    banner: require('./lib/plugins/banner'),
+    bandleAnalyzer: require('./lib/plugins/bandle-analyzer'),
     clean: require('./lib/plugins/clean'),
     extractText: require('./lib/plugins/extract-text'),
-    html: require('./lib/plugins/html')
+    html: require('./lib/plugins/html'),
+    semver: require('./lib/plugins/semver')
   }
 };
