@@ -1,0 +1,22 @@
+module.exports = {
+  configs: {
+    alias: require('./lib/configs/alias'),
+    devServer: require('./lib/configs/dev-server'),
+    extensions: require('./lib/configs/extensions'),
+    mode: require('./lib/configs/mode')
+  },
+  externals: {
+    reactUmd: require('./lib/externals/react-umd'),
+    react: require('./lib/externals/react')
+  },
+  inputs: {},
+  loaders: {
+    babel: require('./lib/loaders/babel'),
+    sass: require('./lib/loaders/sass')
+  },
+  plugins: {
+    clean: require('./lib/plugins/clean'),
+    extractText: require('./lib/plugins/extract-text'),
+    html: require('./lib/plugins/html')
+  }
+};
