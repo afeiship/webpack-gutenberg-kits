@@ -6,6 +6,7 @@ module.exports = {
     mode: require('./lib/configs/mode')
   },
   externals: {
+    gutenberg: require('./lib/externals/gutenberg'),
     reactUmd: require('./lib/externals/react-umd'),
     react: require('./lib/externals/react')
   },
