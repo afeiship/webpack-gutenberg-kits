@@ -17,7 +17,7 @@ module.exports = {
   },
   plugins: {
     banner: require('./lib/plugins/banner'),
-    bandleAnalyzer: require('./lib/plugins/bandle-analyzer'),
+    bundleAnalyzer: require('./lib/plugins/bundle-analyzer'),
     clean: require('./lib/plugins/clean'),
     extractText: require('./lib/plugins/extract-text'),
     html: require('./lib/plugins/html'),
