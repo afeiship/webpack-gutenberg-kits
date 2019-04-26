@@ -2,6 +2,7 @@ module.exports = {
   configs: {
     alias: require('./lib/configs/alias'),
     devServer: require('./lib/configs/dev-server'),
+    devtool: require('./lib/configs/devtool'),
     extensions: require('./lib/configs/extensions'),
     mode: require('./lib/configs/mode')
   },
